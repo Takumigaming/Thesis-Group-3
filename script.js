@@ -420,7 +420,7 @@ function renderAccountProfile() {
 
     const topMenuLabel = document.getElementById('topbar-profile-menu-label');
     const sideMenuLabel = document.getElementById('sidebar-profile-menu-label');
-    const menuText = user.role === 'student' ? 'Edit Profile & Resume' : 'My profile';
+    const menuText = 'Profile';
     if (topMenuLabel) topMenuLabel.innerText = menuText;
     if (sideMenuLabel) sideMenuLabel.innerText = menuText;
 
